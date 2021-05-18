@@ -19,7 +19,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupActionBarWithNavController
-
 /**
  * Activity for cupcake order flow.
  * This code uses a parameterized constructor AppCompatActivity(@LayoutRes int contentLayoutId) which
@@ -27,6 +26,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
  */
 class MainActivity : AppCompatActivity(R.layout.activity_main)
 {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

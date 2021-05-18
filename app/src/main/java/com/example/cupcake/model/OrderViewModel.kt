@@ -17,6 +17,10 @@ class OrderViewModel: ViewModel() {
     private var _price = MutableLiveData<Double>(0.0)
     public val price :LiveData<Double> get() = _price
 
+    fun hasNoFlavorSet(): Boolean
+    {
+        return _flavor.value.isNullOrEmpty()
+    }
     fun setQuantity(numCupcakes: Int)
     {
         _quantity.value = numCupcakes
