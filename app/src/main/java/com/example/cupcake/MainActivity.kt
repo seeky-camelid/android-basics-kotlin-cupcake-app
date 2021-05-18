@@ -19,5 +19,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 /**
  * Activity for cupcake order flow.
+ * This code uses a parameterized constructor AppCompatActivity(@LayoutRes int contentLayoutId) which
+ * takes in a layout that will be inflated as part of super.onCreate(savedInstanceState).
  */
 class MainActivity : AppCompatActivity(R.layout.activity_main)
